@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Presentation Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GorcePierre/Node.js.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Pierre Gorce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GorcePierre/Node.js/issues"
+  },
+  "homepage": "https://github.com/GorcePierre/Node.js#readme"
+}
