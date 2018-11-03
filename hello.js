@@ -1,4 +1,6 @@
-export default function hello() {
-    const hello = "Hello World";
-    return console.log(hello);
+"use strict";
+
+exports.hello = function () {
+    const foo = "Hello World";
+    return foo;
 }
