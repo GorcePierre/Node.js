@@ -1,4 +1,5 @@
 const http = require('http');
+const say = require('./hello')
 
 const server = http.createServer((req, res) => {
     res.end('Hello World\n');
@@ -7,3 +8,5 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
     console.log(`Server running at port: 3000`);
 });
+
+console.log(say.hello())
