@@ -4,7 +4,7 @@
   "description": "Presentation Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon ./src/controller/server.js",
     "test": " grunt jshint && mocha"
   },
   "pre-commit":[

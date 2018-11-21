@@ -1,7 +1,7 @@
 const assert = require('assert');
 const expect = require('chai').expect;
 const should = require('chai').should();
-const say = require("../hello.js");
+const say = require("../src/view/hello.js");
 
 
 it ('isSaying',function (){
